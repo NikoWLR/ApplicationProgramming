@@ -64,8 +64,6 @@ class InstructionResource(Resource):
 
         return instruction.data, HTTPStatus.OK
 
-
-# class and functions for publishing/unpublishing an instruction
 class InstructionPublishResource(Resource):
 
     def put(self, instruction_id):
